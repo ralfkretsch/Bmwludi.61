@@ -16,6 +16,12 @@
 /* Continue after added carbs without bolus */
 "Continue without bolus" = "Verdergaan zonder bolus";
 
+/* Continue after added meal without bolus */
+"Save Meal without bolus" = "Save Meal without bolus";
+
+/* Predictions and Meal summary part of the Bolus View. */
+"Status" = "Status";
+
 /* Alert when adding large amount without bolusing */
 "\nAmount is more than your Max Bolus setting! \nAre you sure you want to add " = "\nDeze hoeveelheid is meer dan je instelling van je maximale bolus! \nWeet je zeker dat je deze hoeveelheid wilt toedienen? \nDeze hoeveelheid is meer dan je instelling van je maximale bolus! \nWaarschuw bij toedienen van een hoge hoeveelheid zonder te bolussen ";
 
@@ -39,6 +45,18 @@
 
 /* Button */
 "Done" = "OK";
+
+/* Calender Option */
+"Display Emojis as Labels" = "Display Emojis as Labels";
+
+/* Calender Option */
+"Display IOB and COB" = "Display IOB and COB";
+
+/* Apple Watch App setting */
+"Confirm Bolus Faster" = "Confirm Bolus Faster";
+
+/* Setting Section */
+"UI/UX" = "UI/UX";
 
 /*  */
 "Wait please" = "Wachten";
@@ -426,7 +444,7 @@ Enact a temp Basal or a temp target */
 "Add Simulator" = "Simulator toevoegen";
 
 /* View/Header when pod expired */
-"Replace" = "Replace";
+"Replace" = "Vervang";
 
 /* Insulin model */
 "Model" = "Model";
@@ -953,6 +971,9 @@ Enact a temp Basal or a temp target */
 /* */
 "High" = "Hoog";
 
+/* TIR Chart */
+"Very High" = "Very High";
+
 /* */
 "glucose" = "glucose";
 
@@ -1433,6 +1454,17 @@ Enact a temp Basal or a temp target */
 /* Watch Config Option */
 "Display Protein & Fat" = "Toon vet en eiwit";
 
+
+/* Time of new meal entry */
+"Now" = "Now";
+
+
+/* Display future data table entries */
+"Show Future" = "Show Future";
+
+/* Hide future data table entries */
+"Hide Future" = "Hide Future";
+
 /* ----------------------- New Bolus Calculator ---------------------------*/
 /* Warning about bolus recommendation. Title */
 
@@ -1705,6 +1737,12 @@ Enact a temp Basal or a temp target */
 
 /* Average BG = */
 "Average" = "Gemiddeld";
+
+/* TIR Preview Headline */
+"Time In Range" = "Tijd binnen bereik (TIR)";
+
+/* Average Loop Interval in minutes */
+"Average Interval" = "Gemiddelde interval";
 
 /* Median BG */
 "Median" = "Mediaan";

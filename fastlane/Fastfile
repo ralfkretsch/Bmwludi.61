@@ -172,7 +172,7 @@ platform :ios do
       Spaceship::ConnectAPI::BundleIdCapability::Type::APP_GROUPS
     ])
 
-    configure_bundle_id("LiveActivityExtension", "#{APP_IDENTIFIER}.FreeAPS.LiveActivity", [
+    configure_bundle_id("LiveActivityExtension", "#{APP_IDENTIFIER}.LiveActivity", [
       Spaceship::ConnectAPI::BundleIdCapability::Type::APP_GROUPS
     ])
     
