@@ -311,7 +311,7 @@
 "Calculated Sensitivity" = "Độ nhạy được tính toán";
 
 /*  */
-"Insulin Sensitivities" = "Độ nhạy của Insulin";
+"Insulin Sensitivities" = "Độ nhạy Insulin";
 
 /* */
 "Sensitivity Ratio" = "Tỷ lệ độ nhạy";
@@ -450,7 +450,7 @@ Enact a temp Basal or a temp target */
 "Model" = "Model";
 
 /*  */
-"Pump config" = "Cấu hình bơm";
+"Pump config" = "Cấu hình bơm Insulin";
 
 /*  */
 "Delivery limits" = "Các giới hạn liều tiêm";
@@ -474,7 +474,7 @@ Enact a temp Basal or a temp target */
 "Pump Settings" = "Cấu hình bơm";
 
 /* Insulin unit per hour */
-"U/hr" = "U/hr";
+"U/hr" = "U/giờ";
 
 /* Unit in number of units delivered (keep the space character!) */
 " U" = " U";
@@ -486,10 +486,10 @@ Enact a temp Basal or a temp target */
 "U" = "U";
 
 /* Unit per hour with space */
-" U/hr" = " U/hr";
+" U/hr" = " U/giờ";
 
 /* Number of units per hour*/
-"%@ U/hr" = "%@ U/hr";
+"%@ U/hr" = "%@ U/giờ";
 
 /* Number of units insulin delivered */
 "%@ U" = "%@ U";
@@ -504,7 +504,7 @@ Enact a temp Basal or a temp target */
 "g" = "g";
 
 /* when 0 U/hr */
-"0 U/hr" = "U/hr";
+"0 U/hr" = "0 U/giờ";
 
 /* abbreviation for days */
 "d" = "ngày";
@@ -708,7 +708,7 @@ Enact a temp Basal or a temp target */
 "Remove" = "Loại bỏ";
 
 /* */
-"Remove Last" = "Loại bỏ mục sau cùng";
+"Remove Last" = "Loại bỏ mục gần nhất";
 
 /* */
 "Remove All" = "Loại bỏ tất cả";
@@ -804,7 +804,7 @@ Enact a temp Basal or a temp target */
 "Detected sensor seems not to be a libre 1 sensor!" = "Cảm biến được phát hiện không phải là cảm biến libre 1!";
 
 /* Detected sensor is invalid: %@ */
-"Detected sensor is invalid: %@" = "Cảm biến được phát hiện không hợp lệ: %@";
+"Detected sensor is invalid: %@" = "Phát hiện cảm biến không hợp lệ: %@";
 
 /* Low Battery */
 "Low battery" = "Pin yếu";
@@ -852,7 +852,7 @@ Enact a temp Basal or a temp target */
 "Sensor Info" = "Thông tin cảm biến";
 
 /* */
-"Sensor Age" = "Thời gian sử dụng sensor";
+"Sensor Age" = "Thời gian sử dụng cảm biến";
 
 /* */
 "Sensor Age Left" = "Thời gian còn lại của cảm biến";
@@ -966,10 +966,10 @@ Enact a temp Basal or a temp target */
 "Unit override" = "Đơn vị ghi đè";
 
 /* */
-"Low" = "Low";
+"Low" = "Thấp";
 
 /* */
-"High" = "High";
+"High" = "Cao";
 
 /* TIR Chart */
 "Very High" = "Quá cao";
@@ -996,13 +996,16 @@ Enact a temp Basal or a temp target */
 "too small bolus amount" = "lượng bolus quá nhỏ";
 
 /* Bolus shortcut. Error */
-"Bolus Shortcuts are disabled in iAPS settings" = "Phím tắt Bolus bị tắt trong cài đặt iAPS";
+"Bolus Shortcuts are disabled in iAPS settings" = "Phím tắt Bolus bị vô hiệu hóa trong cài đặt iAPS";
 
 /* Bolus shortcut */
 "Bolus Amount in U" = "Lượng Bolus tính bằng U";
 
 /* Bolus shortcut. Setting */
 "Allow iOS Bolus Shortcuts" = "Cho phép phím tắt Bolus của iOS";
+
+/* Bolus shortcut setting. Header */
+"iOS Shortcuts" = "Phím tắt iOS";
 
 /* Bolus shortcut. Pop-up */
 "If you enable this setting you will be able to use iOS shortcuts and its automations to trigger a bolus in iAPS.\n\nObserve that the iOS shortuts also works with Siri!\n\nIf you need to use Bolus Shorcuts, please make sure to turn off the listen for 'Hey Siri' setting in iPhone Siri settings, to avoid any inadvertant activaton of a bolus with Siri.\nIf you don't disable 'Hey Siri' the iAPS bolus shortcut can be triggered with the utterance 'Hey Siri, iAPS Bolus'.\n\nWhen triggered with Siri you will be asked for an amount and a confirmation before the bolus command can be sent to iAPS." = "Nếu bật cài đặt này, bạn sẽ có thể sử dụng các phím tắt iOS và tính năng tự động hóa của nó để kích hoạt bolus trong iAPS.\n\nLưu ý rằng các phím tắt iOS cũng hoạt động với Siri!\n\nNếu bạn cần sử dụng Phím tắt Bolus, hãy đảm bảo để tắt cài đặt nghe 'Hey Siri' trong cài đặt Siri của iPhone, để tránh bất kỳ sự kích hoạt vô ý nào của bolus với Siri.\nNếu bạn không tắt 'Hey Siri' thì phím tắt bolus iAPS có thể được kích hoạt bằng câu nói 'Hey Siri, iAPS Bolus'.\n\nKhi được kích hoạt bằng Siri, bạn sẽ được yêu cầu cung cấp số lượng và xác nhận trước khi lệnh truyền nhanh có thể được gửi tới iAPS.";
@@ -1053,7 +1056,7 @@ Enact a temp Basal or a temp target */
 "Some ui element was incorrectly specified" = "Một vài yếu tố ui đã không được chỉ định";
 
 /* */
-"Success" = "Thành công";
+"Success" = "Success";
 
 /* */
 "Schedules were saved successfully!" = "Lịch trình được lưu thành công!";
@@ -1158,7 +1161,7 @@ Enact a temp Basal or a temp target */
 "Bolus failed" = "Liều bolus thất bại";
 
 /* "Max Bolus Exceeded label" */
-"Max Bolus exceeded!" = "Liều Max Bolus đã vượt quá mong đợi!";
+"Max Bolus exceeded!" = "Đã vượt quá liều Bolus tối đa!";
 
 /* */
 "Bolus failed or inaccurate. Check pump history before repeating." = "Liều bolus thất bại hoặc không chính xác. Kiểm tra lại bơm trước khi lặp lại.";
@@ -1230,6 +1233,12 @@ Enact a temp Basal or a temp target */
 /* Online or internal server */
 "Online or internal server" = "Máy chủ trực tuyến hoặc nội bộ";
 
+/* Pump Error Message */
+"Can't enact the new loop cycle recommendation, because a Bolus is in progress. Wait for next loop cycle" = "Không thể thực hiện đề xuất chu kỳ vòng lặp mới vì đang tiến hành một đợt Bolus. Đợi chu kỳ vòng lặp tiếp theo";
+
+/* Pump Error */
+"Error: Pump is Busy." = "Lỗi: Máy bơm đang bận.";
+
 /* -------------- Developer settings ---------------------- */
 /* Debug options */
 
@@ -1248,10 +1257,10 @@ Enact a temp Basal or a temp target */
 "Dynamic Sensitivity" = "Độ nhạy động";
 
 /* Autotune config */
-"Only Autotune Basal Insulin" = "Chỉ Autotune Insulin cơ bản";
+"Only Autotune Basal Insulin" = "Chỉ Autotune Insulin liều nền(basal)";
 
 /* */
-"Save as your Normal Basal Rates" = "Lưu như liều nền của bạn";
+"Save as your Normal Basal Rates" = "Lưu như liều nền(basal) của bạn";
 
 /* */
 "Save on Pump" = "Lưu vào bơm";
@@ -1445,6 +1454,9 @@ Enact a temp Basal or a temp target */
 /* */
 "Save as Profile" = "Lưu profile";
 
+/* */
+"Save as preset" = "Save as preset";
+
 /* Alert */
 "Cancel Profile Override" = "Hủy bỏ ghi đè?";
 
@@ -1520,10 +1532,8 @@ Enact a temp Basal or a temp target */
 /* Watch Config Option */
 "Display Protein & Fat" = "Hiển thị chất đạm và chất béo";
 
-
 /* Time of new meal entry */
 "Now" = "Bây giờ";
-
 
 /* Display future data table entries */
 "Show Future" = "Hiển thị tương lai";
@@ -1579,13 +1589,13 @@ Enact a temp Basal or a temp target */
 "Eventual Glucose > Target Glucose, but glucose is climbing slower than expected. Expected: " = "Glucose hiện tại > Glucose mục tiêu, nhưng glucose tăng chậm hơn dự kiến. Hy vọng: ";
 
 //* Bolus pop-up / Alert string. Make translations concise! */
-". Climbing: " = ". Leo: ";
+". Climbing: " = ". Đang leo lên: ";
 
 /* Bolus pop-up / Alert string. Make translations concise! */
 "Eventual Glucose > Target Glucose, but glucose is falling faster than expected. Expected: " = "Glucose hiện tại > Glucose mục tiêu, nhưng glucose đang giảm nhanh hơn dự kiến. Hy vọng: ";
 
 /* Bolus pop-up / Alert string. Make translations concise! */
-". Falling: " = ". Lao xuóng: ";
+". Falling: " = ". Đang lao xuống: ";
 
 /* Bolus pop-up / Alert string. Make translations concise! */
 "Eventual Glucose > Target Glucose, but glucose is changing faster than expected. Expected: " = "Glucose cuối cùng > Glucose mục tiêu, nhưng glucose đang thay đổi nhanh hơn dự kiến. Hy vọng: ";
@@ -1656,7 +1666,7 @@ Enact a temp Basal or a temp target */
 "Expiration Reminder" = "Nhắc nhở hết hạn";
 
 /* */
-"Low Reservoir" = "Sắp hết thuốc";
+"Low Reservoir" = "Sắp hết insulin";
 
 /* Value text for no expiration reminder */
 "No Reminder" = "Không có lời nhắc";
@@ -1665,7 +1675,7 @@ Enact a temp Basal or a temp target */
 "Scheduled Reminder" = "Lịch biểu lời nhắc";
 
 /* */
-"Low Reservoir Reminder" = "Báo nhắc gần hết thuốc";
+"Low Reservoir Reminder" = "Báo nhắc gần hết insulin";
 
 /* The action string on pod status page when pod data is stale */
 "Make sure your phone and pod are close to each other. If communication issues persist, move to a new area." = "Đảm bảo điện thoại và pod được đặt gần nhau. Nếu kết nối vẫn gặp trở ngại, đặt lại chổ khác.";
@@ -1717,10 +1727,10 @@ Enact a temp Basal or a temp target */
 "Check Cannula" = "Kiểm tra Cannula";
 
 /* */
-"Setup Complete" = "Cấu hình hoàn thành";
+"Setup Complete" = "Cài đặt hoàn thành";
 
 /* */
-"Insulin Suspended" = "Insulin Đã tạm ngưng";
+"Insulin Suspended" = "Đã tạm dừng cấp liều Insulin";
 
 /* Text for suspend resume button when insulin delivery is suspending */
 "Suspending insulin delivery..." = "Đang tạm dừng liều insulin...";
@@ -1757,13 +1767,13 @@ Enact a temp Basal or a temp target */
 "Statistics" = "Thống kê";
 
 /* Option in preferences */
-"Allow Upload of Statistics to NS" = "Cho phép tải thống kê lên NS";
+"Allow Upload of Statistics to NS" = "Cho phép tải số liệu thống kê lên NS";
 
 /* Low Glucose Threshold in Statistics settings */
-"Low" = "Low";
+"Low" = "Thấp";
 
 /* High Glucose Threshold in Statistics settings */
-"High" = "High";
+"High" = "Cao";
 
 /* In Range */
 "In Range" = "In Range";
@@ -1862,13 +1872,13 @@ Enact a temp Basal or a temp target */
 "Display SD instead of CV" = "Hiển thị SD thay vì CV";
 
 /* Description for display SD */
-"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Hiển thị Độ lệch chuẩn (SD) thay vì Hệ số biến thiên (CV) trong statPanel";
+"Display Standard Deviation (SD) instead of Coefficient of Variation (CV) in statPanel" = "Hiển thị Độ lệch chuẩn (SD) thay vì Hệ số biến thiên (CV) trong bảng điều khiển";
 
 /* How often to update the statistics */
 "Update every number of minutes:" = "Cập nhật theo từng phút:";
 
 /* Description for update interval for statistics */
-"Default is 20 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout." = "Mặc định là 20 phút. Tần suất cập nhật và lưu stats.json cũng như tải mảng cuối cùng lên Nightscout khi được bật.";
+"Default is 20 minutes. How often to update and save the statistics.json and to upload last array, when enabled, to Nightscout." = "Mặc định là 20 phút. Tần suất cập nhật và lưu statistics.json cũng như tải danh sách cuối cùng lên Nightscout khi được bật.";
 
 /* Duration displayed in statPanel */
 "Past 24 Hours " = "Past 24 Hours ";
@@ -1892,7 +1902,7 @@ Enact a temp Basal or a temp target */
 "Displays Loop statistics in the statPanel in Home View" = "Hiển thị số liệu thống kê vòng lặp trong bảng điều khiển trong Chế độ xem trang chủ";
 
 /* Description for Override HbA1c unit */
-"Change default HbA1c unit in statPanlel. The unit in statPanel will be updateded with next statistics.json update" = "Thay đổi đơn vị HbA1c mặc định trong bảng điều khiển. Đơn vị trong bảng điều khiển sẽ được cập nhật với bản cập nhật stats.json tiếp theo";
+"Change default HbA1c unit in statPanlel. The unit in statPanel will be updateded with next statistics.json update" = "Thay đổi đơn vị HbA1c mặc định trong bảng điều khiển. Đơn vị trong bảng điều khiển sẽ được cập nhật với bản cập nhật statistics.json tiếp theo";
 
 /* HbA1c for all glucose storage days */
 "all" = "Tất cả";
@@ -1939,7 +1949,7 @@ Enact a temp Basal or a temp target */
 "Defaults to false. When set to true, can lower sensitivity (higher sensitivity ratio) for temptargets <= 99. The lower your temp target below 100 will result in less sensitive (higher) ratios, e.g., temp target of 95 results in sensitivity ratio of 1.09, while 85 results in 1.33 (with default halfBasalTarget of 160)." = "Mặc định là False. Khi được đặt thành True, có thể giảm độ nhạy (tỷ lệ độ nhạy cao hơn) cho mục tiêu tạm thời <= 99. Mục tiêu tạm thời của bạn càng thấp dưới 100 sẽ dẫn đến tỷ lệ kém nhạy hơn (cao hơn), ví dụ: mục tiêu tạm thời là 95 dẫn đến tỷ lệ độ nhạy là 1,09, trong khi 85 kết quả là 1,33 (với Một nửa mục tiêu cơ bản mặc định là 160).";
 
 /* Headline ”Sensitivity Raises Target" */
-"Sensitivity Raises Target" = "Độ nhạy tăng mục tiêu";
+"Sensitivity Raises Target" = "Sensitivity Raises Target";
 
 /* ”Sensitivity Raises Target" */
 "When true, raises BG target when autosens detects sensitivity" = "Khi True, tăng mục tiêu BG khi cảm biến tự động phát hiện độ nhạy";
@@ -2020,7 +2030,7 @@ Enact a temp Basal or a temp target */
 "Defaults to false. When true, allows supermicrobolus (if otherwise enabled) even with high temp targets (> 100 mg/dl)." = "Mặc định là False. Khi True, cho phép Super Micro Bolus (nếu được kích hoạt khác) ngay cả với mục tiêu nhiệt độ cao (> 100 mg/dl).";
 
 /* Headline "Use Custom Peak Time” */
-"Use Custom Peak Time" = "Sử dụng giờ cao điểm tùy chỉnh";
+"Use Custom Peak Time" = "Tuỳ chỉnh đỉnh của Insulin";
 
 /* "Use Custom Peak Time” */
 "Defaults to false. Setting to true allows changing insulinPeakTime" = "Mặc định là False. Đặt thành True cho phép thay đổi đỉnh của insulin";
@@ -2044,7 +2054,7 @@ Enact a temp Basal or a temp target */
 "This is an important OpenAPS safety limit. The default setting (which is unlikely to need adjusting) is 3. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 3x the highest hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "Đây là giới hạn an toàn quan trọng của OpenAPS. Cài đặt mặc định (có thể không cần điều chỉnh) là 3. Điều này có nghĩa là OpenAPS sẽ không bao giờ được phép đặt tốc độ cơ bản tạm thời cao hơn 3 lần tốc độ cơ bản hàng giờ cao nhất được lập trình trong máy bơm của người dùng hoặc, nếu được bật, sẽ được xác định bằng autotune.";
 
 /* Headline "Current Basal Safety Multiplier" */
-"Current Basal Safety Multiplier" = "Hệ số an toàn cơ bản hiện tại";
+"Current Basal Safety Multiplier" = "Hệ số an toàn cơ bản(basal) hiện tại";
 
 /* "Current Basal Safety Multiplier" */
 "This is another important OpenAPS safety limit. The default setting (which is also unlikely to need adjusting) is 4. This means that OpenAPS will never be allowed to set a temporary basal rate that is more than 4x the current hourly basal rate programmed in a user’s pump, or, if enabled, determined by autotune." = "Đây là một giới hạn an toàn quan trọng khác của OpenAPS. Cài đặt mặc định (cũng khó có thể cần điều chỉnh) là 4. Điều này có nghĩa là OpenAPS sẽ không bao giờ được phép đặt tốc độ cơ bản tạm thời cao hơn 4 lần tốc độ cơ bản hàng giờ hiện tại được lập trình trong máy bơm của người dùng hoặc, nếu được bật, được xác định bằng autotune.";
@@ -2235,6 +2245,9 @@ Enact a temp Basal or a temp target */
 /* Bolus Calculator Footer */
 "The new alternate bolus calculator is another approach to the default bolus calculator in iAPS. If the toggle is on you use this bolus calculator and not the original iAPS calculator. At the end of the calculation a custom factor is applied as it is supposed to be when using smbs (default 0.8).\n\nYou can also add the option in your bolus calculator to apply another (!) customizable factor at the end of the calculation which could be useful for fatty meals, e.g Pizza (default 0.7)." = "Công cụ tính bolus thay thế mới là một cách tiếp cận khác với công cụ tính bolus mặc định trong iAPS. Nếu bật nút này, bạn sẽ sử dụng máy tính bolus này chứ không phải máy tính iAPS gốc. Khi kết thúc phép tính, một hệ số tùy chỉnh sẽ được áp dụng như lẽ ra phải như vậy khi sử dụng smbs (mặc định là 0,8).\n\nBạn cũng có thể thêm tùy chọn trong máy tính bolus của mình để áp dụng một hệ số tùy chỉnh (!) khác ở cuối phép tính, phép tính có thể hữu ích cho các bữa ăn nhiều chất béo, ví dụ: Pizza (mặc định là 0,7).";
 
+/* Settings Section */
+"Extra Features" = "Tính năng bổ sung";
+
 /* UI/UX option */
 "Display Predictions" = "Hiển thị dự đoán";
 
@@ -2298,7 +2311,7 @@ Enact a temp Basal or a temp target */
 "Live activity displays blood glucose live on the lock screen and on the dynamic island (if available)" = "Hiển thị hoạt động trực tiếp đường huyết trên màn hình khóa";
 
 /* Live Activity Footer when off */
-"Live activities are turned OFF in system settings. To enable live activities, go to Settings app -> iAPS -> Turn live Activities ON.\n\n" = "Để bật các hoạt động trực tiếp, hãy đi tới ứng dụng Cài đặt -> iAPS -> BẬT Hoạt động trực tiếp.\n\n";
+"Live activities are turned OFF in system settings. To enable live activities, go to Settings app -> iAPS -> Turn live Activities ON.\n\n" = "Các hoạt động trực tiếp được TẮT trong cài đặt hệ thống. Để bật các hoạt động trực tiếp, hãy đi tới ứng dụng Cài đặt -> iAPS -> BẬT Hoạt động trực tiếp.\n\n";
 
 /* Headline "Weighted Average of TDD. Weight of past 24 hours:" */
 "Weighted Average of TDD. Weight of past 24 hours:" = "Trung bình có trọng số của TDD. Trọng lượng trong 24 giờ qua:";

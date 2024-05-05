@@ -18,13 +18,14 @@
 		190EBCC629FF138000BA767D /* StatConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBCC529FF138000BA767D /* StatConfigProvider.swift */; };
 		190EBCC829FF13AA00BA767D /* StatConfigStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBCC729FF13AA00BA767D /* StatConfigStateModel.swift */; };
 		190EBCCB29FF13CB00BA767D /* StatConfigRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBCCA29FF13CB00BA767D /* StatConfigRootView.swift */; };
+		190F8CF72BC6F70800EDB473 /* IllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F8CF62BC6F70800EDB473 /* IllustrationView.swift */; };
 		191F62682AD6B05A004D7911 /* NightscoutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F62672AD6B05A004D7911 /* NightscoutSettings.swift */; };
 		1920BF5D2B9DF53200E861FE /* BolusShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1920BF5C2B9DF53200E861FE /* BolusShortcut.swift */; };
 		19229B962AFBB84800CD91CA /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19229B952AFBB84800CD91CA /* Predictions.swift */; };
 		192424CB2B7A64E70063CBF0 /* NIghtscoutExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192424CA2B7A64E70063CBF0 /* NIghtscoutExercise.swift */; };
+		1924F72C2BA35AE5006644EE /* TotalDailyDose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924F72B2BA35AE5006644EE /* TotalDailyDose.swift */; };
 		1927C8E62744606D00347C69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1927C8E82744606D00347C69 /* InfoPlist.strings */; };
-		192E77312B9F40C7004F4822 /* AppShortcuts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 192E77332B9F40C7004F4822 /* AppShortcuts.strings */; };
-		1935364028496F7D001E0B16 /* Oref2_variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935363F28496F7D001E0B16 /* Oref2_variables.swift */; };
+		1935364028496F7D001E0B16 /* Dynamic structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935363F28496F7D001E0B16 /* Dynamic structs.swift */; };
 		193F6CDD2A512C8F001240FD /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F6CDC2A512C8F001240FD /* Loops.swift */; };
 		194297512B815938006B8A0B /* OverridesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194297502B815938006B8A0B /* OverridesView.swift */; };
 		194C32772B93A9BF0016FB2A /* OverrideShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194C32762B93A9BF0016FB2A /* OverrideShortcuts.swift */; };
@@ -39,6 +40,7 @@
 		1967DFC029D053AC00759F30 /* IconSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967DFBF29D053AC00759F30 /* IconSelection.swift */; };
 		1967DFC229D053D300759F30 /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967DFC129D053D300759F30 /* IconImage.swift */; };
 		19795118275953E50044850D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 198377D4266BFFF6004DE65E /* Localizable.strings */; };
+		1982F7DB2BA6509D00EAFADE /* PumpStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982F7DA2BA6509D00EAFADE /* PumpStorage.swift */; };
 		198377D2266BFFF6004DE65E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 198377D4266BFFF6004DE65E /* Localizable.strings */; };
 		198CED9D2B2E62940073032D /* OverrideStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198CED9C2B2E62940073032D /* OverrideStorage.swift */; };
 		199561C1275E61A50077B976 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199561C0275E61A50077B976 /* HealthKit.framework */; };
@@ -47,7 +49,6 @@
 		19A910382A24EF3200C8951B /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A910372A24EF3200C8951B /* ChartsView.swift */; };
 		19AEF4322B1F5A98006FFE8B /* TIRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEF4312B1F5A98006FFE8B /* TIRView.swift */; };
 		19B0EF2128F6D66200069496 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B0EF2028F6D66200069496 /* Statistics.swift */; };
-		19B60B782B5E7E97002F4F74 /* Threshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B60B772B5E7E97002F4F74 /* Threshold.swift */; };
 		19D466A329AA2B80004D5F33 /* FPUConfigDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D466A229AA2B80004D5F33 /* FPUConfigDataFlow.swift */; };
 		19D466A529AA2BD4004D5F33 /* FPUConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D466A429AA2BD4004D5F33 /* FPUConfigProvider.swift */; };
 		19D466A729AA2C22004D5F33 /* FPUConfigStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D466A629AA2C22004D5F33 /* FPUConfigStateModel.swift */; };
@@ -64,6 +65,11 @@
 		19E1F7EA29D082ED005C8D20 /* IconConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1F7E929D082ED005C8D20 /* IconConfigProvider.swift */; };
 		19E1F7EC29D082FE005C8D20 /* IconConfigStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1F7EB29D082FE005C8D20 /* IconConfigStateModel.swift */; };
 		19E1F7EF29D08EBA005C8D20 /* IconConfigRootWiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1F7EE29D08EBA005C8D20 /* IconConfigRootWiew.swift */; };
+		19F191DC2BE4F97000F6297E /* SharingDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F191DB2BE4F97000F6297E /* SharingDataFlow.swift */; };
+		19F191DE2BE4F97F00F6297E /* SharingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F191DD2BE4F97F00F6297E /* SharingProvider.swift */; };
+		19F191E02BE4F98F00F6297E /* SharingStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F191DF2BE4F98F00F6297E /* SharingStateModel.swift */; };
+		19F191E22BE4F9BA00F6297E /* SharingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F191E12BE4F9BA00F6297E /* SharingRootView.swift */; };
+		19F191E42BE686AE00F6297E /* BareMinimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F191E32BE686AE00F6297E /* BareMinimum.swift */; };
 		19F95FF329F10FBC00314DDC /* StatDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F95FF229F10FBC00314DDC /* StatDataFlow.swift */; };
 		19F95FF529F10FCF00314DDC /* StatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F95FF429F10FCF00314DDC /* StatProvider.swift */; };
 		19F95FF729F10FEE00314DDC /* StatStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F95FF629F10FEE00314DDC /* StatStateModel.swift */; };
@@ -546,11 +552,14 @@
 		190EBCC529FF138000BA767D /* StatConfigProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatConfigProvider.swift; sourceTree = "<group>"; };
 		190EBCC729FF13AA00BA767D /* StatConfigStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatConfigStateModel.swift; sourceTree = "<group>"; };
 		190EBCCA29FF13CB00BA767D /* StatConfigRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatConfigRootView.swift; sourceTree = "<group>"; };
+		190F8CF62BC6F70800EDB473 /* IllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustrationView.swift; sourceTree = "<group>"; };
 		1918333A26ADA46800F45722 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		191F62672AD6B05A004D7911 /* NightscoutSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutSettings.swift; sourceTree = "<group>"; };
 		1920BF5C2B9DF53200E861FE /* BolusShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusShortcut.swift; sourceTree = "<group>"; };
+		192202902BAB567800B95BE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19229B952AFBB84800CD91CA /* Predictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
 		192424CA2B7A64E70063CBF0 /* NIghtscoutExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIghtscoutExercise.swift; sourceTree = "<group>"; };
+		1924F72B2BA35AE5006644EE /* TotalDailyDose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDailyDose.swift; sourceTree = "<group>"; };
 		1927C8E92744611700347C69 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1927C8EA2744611800347C69 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1927C8EB2744611900347C69 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -594,7 +603,7 @@
 		192E77592B9F4D1B004F4822 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
 		192E775A2B9F4D1C004F4822 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
 		192E775B2B9F4D1E004F4822 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
-		1935363F28496F7D001E0B16 /* Oref2_variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oref2_variables.swift; sourceTree = "<group>"; };
+		1935363F28496F7D001E0B16 /* Dynamic structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamic structs.swift"; sourceTree = "<group>"; };
 		193F1E392B44C13B00525770 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		193F1E3A2B44C13B00525770 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		193F1E3B2B44C14800525770 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -613,6 +622,7 @@
 		1967DFBF29D053AC00759F30 /* IconSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelection.swift; sourceTree = "<group>"; };
 		1967DFC129D053D300759F30 /* IconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
 		1980131D29CC9839002FF024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1982F7DA2BA6509D00EAFADE /* PumpStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PumpStorage.swift; sourceTree = "<group>"; };
 		198377D3266BFFF6004DE65E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		198377D5266C0A05004DE65E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		198377D6266C0A0A004DE65E /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -639,7 +649,6 @@
 		19A910372A24EF3200C8951B /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		19AEF4312B1F5A98006FFE8B /* TIRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIRView.swift; sourceTree = "<group>"; };
 		19B0EF2028F6D66200069496 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
-		19B60B772B5E7E97002F4F74 /* Threshold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threshold.swift; sourceTree = "<group>"; };
 		19C166682756EFBD00ED12E3 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		19C166692756EFBD00ED12E3 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		19D466A229AA2B80004D5F33 /* FPUConfigDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPUConfigDataFlow.swift; sourceTree = "<group>"; };
@@ -656,6 +665,11 @@
 		19E1F7E929D082ED005C8D20 /* IconConfigProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConfigProvider.swift; sourceTree = "<group>"; };
 		19E1F7EB29D082FE005C8D20 /* IconConfigStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConfigStateModel.swift; sourceTree = "<group>"; };
 		19E1F7EE29D08EBA005C8D20 /* IconConfigRootWiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConfigRootWiew.swift; sourceTree = "<group>"; };
+		19F191DB2BE4F97000F6297E /* SharingDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataFlow.swift; sourceTree = "<group>"; };
+		19F191DD2BE4F97F00F6297E /* SharingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingProvider.swift; sourceTree = "<group>"; };
+		19F191DF2BE4F98F00F6297E /* SharingStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingStateModel.swift; sourceTree = "<group>"; };
+		19F191E12BE4F9BA00F6297E /* SharingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingRootView.swift; sourceTree = "<group>"; };
+		19F191E32BE686AE00F6297E /* BareMinimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareMinimum.swift; sourceTree = "<group>"; };
 		19F95FF229F10FBC00314DDC /* StatDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatDataFlow.swift; sourceTree = "<group>"; };
 		19F95FF429F10FCF00314DDC /* StatProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatProvider.swift; sourceTree = "<group>"; };
 		19F95FF629F10FEE00314DDC /* StatStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatStateModel.swift; sourceTree = "<group>"; };
@@ -1148,6 +1162,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		191D529D2BAB4982003F52E1 /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				192E77332B9F40C7004F4822 /* AppShortcuts.strings */,
+			);
+			path = Shortcuts;
+			sourceTree = "<group>";
+		};
 		1920BF5B2B9DF4B900E861FE /* Bolus */ = {
 			isa = PBXGroup;
 			children = (
@@ -1200,9 +1222,19 @@
 			path = Overrides;
 			sourceTree = "<group>";
 		};
+		196F58CD2BDCFF80009CBF1B /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				1927C8E82744606D00347C69 /* InfoPlist.strings */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
 		198377CF266BFEDE004DE65E /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
+				196F58CD2BDCFF80009CBF1B /* InfoPlists */,
+				191D529D2BAB4982003F52E1 /* Shortcuts */,
 				19D440A926B6FEBD008DA6C8 /* Main */,
 			);
 			path = Localizations;
@@ -1275,6 +1307,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		19F191D92BE4F93400F6297E /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				19F191DB2BE4F97000F6297E /* SharingDataFlow.swift */,
+				19F191DD2BE4F97F00F6297E /* SharingProvider.swift */,
+				19F191DF2BE4F98F00F6297E /* SharingStateModel.swift */,
+				19F191DA2BE4F94A00F6297E /* View */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		19F191DA2BE4F94A00F6297E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19F191E12BE4F9BA00F6297E /* SharingRootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		19F95FF129F10F9C00314DDC /* Stat */ = {
 			isa = PBXGroup;
 			children = (
@@ -1318,6 +1369,7 @@
 		3811DE0325C9D31700A708ED /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				19F191D92BE4F93400F6297E /* Sharing */,
 				195D80B22AF696EE00D25097 /* Dynamic */,
 				190EBCC229FF134900BA767D /* StatConfig */,
 				BD7DA9A32AE06DBA00601B20 /* BolusCalculatorConfig */,
@@ -1541,7 +1593,6 @@
 				388E596E25AD96040019842D /* javascript */,
 				3811DEC725C9DA7300A708ED /* FreeAPS.entitlements */,
 				388E596425AD948E0019842D /* Info.plist */,
-				1927C8E82744606D00347C69 /* InfoPlist.strings */,
 				B9CAAEFB2AE70836000F68BC /* branch.txt */,
 				19DA487F29CD2B8400EEA1E7 /* Assets.xcassets */,
 			);
@@ -1745,6 +1796,7 @@
 				384E803325C385E60086DB71 /* JavaScriptWorker.swift */,
 				384E803725C388640086DB71 /* Script.swift */,
 				3821ED4B25DD18BA00BC42AD /* Constants.swift */,
+				1924F72B2BA35AE5006644EE /* TotalDailyDose.swift */,
 			);
 			path = OpenAPS;
 			sourceTree = "<group>";
@@ -1778,9 +1830,10 @@
 				3871F39B25ED892B0013ECB5 /* TempTarget.swift */,
 				3811DE8E25C9D80400A708ED /* User.swift */,
 				E0D4F80427513ECF00BDF1FE /* HealthKitSample.swift */,
-				1935363F28496F7D001E0B16 /* Oref2_variables.swift */,
+				1935363F28496F7D001E0B16 /* Dynamic structs.swift */,
 				CE82E02628E869DF00473A9C /* AlertEntry.swift */,
 				19B0EF2028F6D66200069496 /* Statistics.swift */,
+				19F191E32BE686AE00F6297E /* BareMinimum.swift */,
 				19012CDB291D2CB900FB8210 /* LoopStats.swift */,
 				FE41E4D329463C660047FD55 /* NightscoutStatistics.swift */,
 				FE41E4D529463EE20047FD55 /* NightscoutPreferences.swift */,
@@ -1790,7 +1843,6 @@
 				19A910352A24D6D700C8951B /* Configs.swift */,
 				193F6CDC2A512C8F001240FD /* Loops.swift */,
 				CC6C406D2ACDD69E009B8058 /* RawFetchedProfile.swift */,
-				19B60B772B5E7E97002F4F74 /* Threshold.swift */,
 				192424CA2B7A64E70063CBF0 /* NIghtscoutExercise.swift */,
 			);
 			path = Models;
@@ -1839,6 +1891,7 @@
 				CE82E02428E867BA00473A9C /* AlertStorage.swift */,
 				1956FB202AFF79E200C7B4FF /* CoreDataStorage.swift */,
 				198CED9C2B2E62940073032D /* OverrideStorage.swift */,
+				1982F7DA2BA6509D00EAFADE /* PumpStorage.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -2241,6 +2294,7 @@
 				BDFD165B2AE40688007F0DDA /* DefaultBolusCalcRootView.swift */,
 				BDFD16592AE40438007F0DDA /* AlternativeBolusCalcRootView.swift */,
 				19229B952AFBB84800CD91CA /* Predictions.swift */,
+				190F8CF62BC6F70800EDB473 /* IllustrationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2309,7 +2363,6 @@
 			children = (
 				CE7CA3432A064973004BE681 /* AppShortcuts.swift */,
 				CE7CA3442A064973004BE681 /* BaseIntentsRequest.swift */,
-				192E77332B9F40C7004F4822 /* AppShortcuts.strings */,
 				CE1856F32ADC4835007E39C7 /* Carbs */,
 				196579A52B924BD400642E8E /* Overrides */,
 				1920BF5B2B9DF4B900E861FE /* Bolus */,
@@ -2694,7 +2747,6 @@
 				388E597225AD9CF10019842D /* json in Resources */,
 				38DF178E27733E6800B3528F /* Assets.xcassets in Resources */,
 				19DA48E829CD339B00EEA1E7 /* Assets.xcassets in Resources */,
-				192E77312B9F40C7004F4822 /* AppShortcuts.strings in Resources */,
 				388E596F25AD96040019842D /* javascript in Resources */,
 				B9CAAEFC2AE70836000F68BC /* branch.txt in Resources */,
 				1927C8E62744606D00347C69 /* InfoPlist.strings in Resources */,
@@ -2792,10 +2844,12 @@
 				385CEAC425F2F154002D6D5B /* AnnouncementsStorage.swift in Sources */,
 				38AEE73D25F0200C0013F05B /* FreeAPSSettings.swift in Sources */,
 				38FCF3FD25E997A80078B0D1 /* PumpHistoryStorage.swift in Sources */,
+				19F191E22BE4F9BA00F6297E /* SharingRootView.swift in Sources */,
 				38D0B3B625EBE24900CB6E88 /* Battery.swift in Sources */,
 				38C4D33725E9A1A300D30B77 /* DispatchQueue+Extensions.swift in Sources */,
 				F90692CF274B999A0037068D /* HealthKitDataFlow.swift in Sources */,
 				CE7CA3552A064973004BE681 /* ListStateIntent.swift in Sources */,
+				19F191DE2BE4F97F00F6297E /* SharingProvider.swift in Sources */,
 				195D80B72AF697B800D25097 /* DynamicDataFlow.swift in Sources */,
 				3862CC2E2743F9F700BF832C /* CalendarManager.swift in Sources */,
 				CEA4F62329BE10F70011ADF7 /* SavitzkyGolayFilter.swift in Sources */,
@@ -2830,6 +2884,7 @@
 				198CED9D2B2E62940073032D /* OverrideStorage.swift in Sources */,
 				E00EEC0527368630002FF094 /* StorageAssembly.swift in Sources */,
 				384E803825C388640086DB71 /* Script.swift in Sources */,
+				19F191E42BE686AE00F6297E /* BareMinimum.swift in Sources */,
 				CE94597E29E9E1EE0047C9C6 /* GarminManager.swift in Sources */,
 				3883583425EEB38000E024B2 /* PumpSettings.swift in Sources */,
 				38DAB280260CBB7F00F74C1A /* PumpView.swift in Sources */,
@@ -2893,6 +2948,7 @@
 				19F95FF329F10FBC00314DDC /* StatDataFlow.swift in Sources */,
 				3811DE2225C9D48300A708ED /* MainProvider.swift in Sources */,
 				3811DE0C25C9D32F00A708ED /* BaseProvider.swift in Sources */,
+				19F191E02BE4F98F00F6297E /* SharingStateModel.swift in Sources */,
 				3811DE5C25C9D4D500A708ED /* Formatters.swift in Sources */,
 				3871F39F25ED895A0013ECB5 /* Decimal+Extensions.swift in Sources */,
 				3811DE3525C9D49500A708ED /* HomeRootView.swift in Sources */,
@@ -2929,8 +2985,8 @@
 				6B1A8D2E2B156EEF00E76752 /* LiveActivityBridge.swift in Sources */,
 				38DAB28A260D349500F74C1A /* FetchGlucoseManager.swift in Sources */,
 				38F37828261260DC009DB701 /* Color+Extensions.swift in Sources */,
+				1982F7DB2BA6509D00EAFADE /* PumpStorage.swift in Sources */,
 				3811DE3F25C9D4A100A708ED /* SettingsStateModel.swift in Sources */,
-				19B60B782B5E7E97002F4F74 /* Threshold.swift in Sources */,
 				CE7CA3582A064E2F004BE681 /* ListStateView.swift in Sources */,
 				193F6CDD2A512C8F001240FD /* Loops.swift in Sources */,
 				38B4F3CB25E502E200E76A18 /* WeakObjectSet.swift in Sources */,
@@ -2948,7 +3004,7 @@
 				38AAF8712600C1B0004AF583 /* MainChartView.swift in Sources */,
 				195F00482B5C267D00DAC71A /* DescriptionView.swift in Sources */,
 				19DC677F29CA675700FD9EC4 /* OverrideProfilesDataFlow.swift in Sources */,
-				1935364028496F7D001E0B16 /* Oref2_variables.swift in Sources */,
+				1935364028496F7D001E0B16 /* Dynamic structs.swift in Sources */,
 				CE2FAD3A297D93F0001A872C /* BloodGlucoseExtensions.swift in Sources */,
 				38E4453A274E411700EC9A94 /* Disk+[UIImage].swift in Sources */,
 				72F1BD388F42FCA6C52E4500 /* ConfigEditorProvider.swift in Sources */,
@@ -2963,6 +3019,7 @@
 				19AEF4322B1F5A98006FFE8B /* TIRView.swift in Sources */,
 				38A43598262E0E4900E80935 /* FetchAnnouncementsManager.swift in Sources */,
 				642F76A05A4FF530463A9FD0 /* NightscoutConfigRootView.swift in Sources */,
+				190F8CF72BC6F70800EDB473 /* IllustrationView.swift in Sources */,
 				BD7DA9AC2AE06EB900601B20 /* BolusCalculatorConfigRootView.swift in Sources */,
 				AD3D2CD42CD01B9EB8F26522 /* PumpConfigDataFlow.swift in Sources */,
 				53F2382465BF74DB1A967C8B /* PumpConfigProvider.swift in Sources */,
@@ -2989,6 +3046,7 @@
 				8B759CFCF47B392BB365C251 /* BasalProfileEditorDataFlow.swift in Sources */,
 				195D80B42AF6973A00D25097 /* DynamicRootView.swift in Sources */,
 				389442CB25F65F7100FA1F27 /* NightscoutTreatment.swift in Sources */,
+				19F191DC2BE4F97000F6297E /* SharingDataFlow.swift in Sources */,
 				CE7CA3512A064973004BE681 /* ApplyTempPresetIntent.swift in Sources */,
 				FA630397F76B582C8D8681A7 /* BasalProfileEditorProvider.swift in Sources */,
 				63E890B4D951EAA91C071D5C /* BasalProfileEditorStateModel.swift in Sources */,
@@ -3078,6 +3136,7 @@
 				7BCFACB97C821041BA43A114 /* ManualTempBasalRootView.swift in Sources */,
 				38E44534274E411700EC9A94 /* Disk+InternalHelpers.swift in Sources */,
 				38A00B2325FC2B55006BC0B0 /* LRUCache.swift in Sources */,
+				1924F72C2BA35AE5006644EE /* TotalDailyDose.swift in Sources */,
 				3083261C4B268E353F36CD0B /* AutotuneConfigDataFlow.swift in Sources */,
 				891DECF7BC20968D7F566161 /* AutotuneConfigProvider.swift in Sources */,
 				D76333C9256787610B3B4875 /* AutotuneConfigStateModel.swift in Sources */,
@@ -3210,6 +3269,7 @@
 				19C166682756EFBD00ED12E3 /* sk */,
 				193F1E392B44C13B00525770 /* hu */,
 				193F1E3B2B44C14800525770 /* vi */,
+				192202902BAB567800B95BE8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3642,7 +3702,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "$(DEVELOPER_TEAM)";
 				INFOPLIST_FILE = FreeAPSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3663,7 +3723,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "$(DEVELOPER_TEAM)";
 				INFOPLIST_FILE = FreeAPSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
